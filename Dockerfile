@@ -6,7 +6,7 @@ RUN apk -v --no-cache add \
         less \
         zip \
         sed \
-        jq==1.6_rc2 \
+        jq==1.6-r0 \
         mailcap \
         docker \
         && \
