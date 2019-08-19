@@ -4,6 +4,8 @@ RUN apk -v --no-cache add \
         py-pip \
         groff \
         less \
+        zip \
+        sed \
         mailcap \
         docker \
         && \
