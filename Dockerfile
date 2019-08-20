@@ -5,6 +5,8 @@ RUN apk -v --no-cache add \
         groff \
         less \
         zip \
+        tar \
+        curl \
         jq \
         sed \
         mailcap \
