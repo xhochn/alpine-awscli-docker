@@ -1,4 +1,10 @@
 FROM alpine:3.6
+
+LABEL name="alpine-awscli-docker"
+LABEL team="TechOps"
+LABEL version="1.0"
+LABEL alpine="3.6"
+
 # hadolint ignore=DL3018
 RUN apk -v --no-cache add \
         python \
