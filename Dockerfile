@@ -22,8 +22,8 @@ RUN apk -v --no-cache add \
     pip install --upgrade awscli==1.16 awsebcli==3.15 s3cmd==2.0.1 python-magic==0.4.15 && \
     apk -v --purge del py-pip
 
-ENV PROMETHEUS_VERSION=2.3.2
-ENV ALERTMANAGER_VERSION=0.15.2
+ENV PROMETHEUS_VERSION=2.12.0
+ENV ALERTMANAGER_VERSION=0.18.0
 
 ENV PROMETHEUS_DOWNLOAD_URL https://github.com/prometheus/prometheus/releases/download/v${PROMETHEUS_VERSION}/prometheus-${PROMETHEUS_VERSION}.linux-amd64.tar.gz
 ENV ALERTMANAGER_DOWNLOAD_URL https://github.com/prometheus/alertmanager/releases/download/v${ALERTMANAGER_VERSION}/alertmanager-${ALERTMANAGER_VERSION}.linux-amd64.tar.gz
